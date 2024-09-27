@@ -1,0 +1,59 @@
+.album-card {
+    text-align: center;
+    height: 600px;
+    width: 350px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-top: 48px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: whitesmoke;
+
+    h2 {
+        padding-block: 24px;
+        font-size: 28px;
+        background-color: whitesmoke;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+    img {
+        height: 30%;
+        border-radius: 20px;
+
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    button {
+        cursor: pointer;
+        padding: 5px;
+        font-family: 'Courgette', cursive;
+
+        border-radius: 20px;
+        background-color: var(--color-bg-);
+        color: whitesmoke;
+        transition: 0.15s;
+
+        &:hover {
+            transform: scale(1.25);
+        }
+
+        &:active {
+            transform: scale(2.15);
+        }
+
+
+    }
+
+}
+
+.album-card:hover {
+    transform: scale(1.05);
+}
+
+.album-card:active {
+    transform: scale(1.15);
+}
